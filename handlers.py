@@ -1,3 +1,5 @@
+import nest_asyncio
+nest_asyncio.apply()
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext, CallbackQueryHandler
 from config import TOKEN, ADMIN_GROUP_ID, PIX_KEY, PLANS
