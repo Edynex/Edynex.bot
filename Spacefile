@@ -1,0 +1,6 @@
+[workspace]
+name = edynex-bot
+
+[app]
+main = main.py
+runtime = python3.10
