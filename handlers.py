@@ -89,4 +89,5 @@ async def main():
 
 if __name__ == "__main__":
     import asyncio
-    asyncio.run(main())
+    def iniciar_bot():
+asyncio.run(main())
